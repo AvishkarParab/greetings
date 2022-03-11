@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imagecontainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
+}
+.imagecontainer .over{
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,0.2);
+}
+.imagecontainer img{
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+}
+.wishCont{
+    /* border-radius: 10px;
+    background-color: rgba(0,0,0,0.2); */
+}
+.bass{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(12, 85, 243, 0.404);
+    border: 1px solid white;
+    box-shadow: 5px 5px 1px 1px rgba(0, 0, 0, 0.473);
+    backdrop-filter: blur(2px);
+}
+.linkUrl{
+    font-size: 16px;
+    font-family: cursive;
+    color:rgb(6, 247, 166);
+    background-color:rgba(0, 0, 0, 0.562) ;
+    border-radius: 10px;
+}
+.swal-modal {
+    border-radius: 10px;
+    box-shadow:5px 5px 1px 1px rgba(0, 0, 0, 0.273);
+  }
